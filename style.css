@@ -1,0 +1,117 @@
+:root{
+    --main-bg-color: rgb(252, 252, 252);  
+    --main-text-color: rgb(47, 47, 47);
+    --header-bg-color: rgb(252, 252, 252);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: var(--main-bg-color);
+    color: var(--main-text-color);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    display: flex;
+    font-family: 'Roboto Mono', monospace;
+    flex-direction: column;
+    align-items: center;
+    color: linear-gradient();
+    padding: 1rem;
+    font-size: 3rem;
+    background-color: var(--header-bg-color);
+    
+}
+.header h6{
+    font-size: 2rem;
+    
+}
+ul{
+    display: flex;
+    list-style-type: none; 
+}
+li{
+margin: 1rem 5vw;
+
+}
+li a{
+    color: black;
+}
+.itens{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    border: 1px  solid black;
+}
+.sobre{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+.sobre img{
+    width: 30rem;
+    height: 20rem;
+    margin-left: 5rem;
+}
+.apresentacao{
+    width: 30vw;
+    height: 90vh;
+}
+.artigo{
+
+    padding: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.artigo img{
+    width: 50rem;
+}
+
+.conteudo{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60vw;
+}
+.conteudo img{
+    width: 45rem;
+}
+.conteudo h1{
+    color: rgb(168, 0, 0);
+}
+.titulo{
+    font-size: 2rem;
+}
+.texto{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+.texto div{
+    margin-top: 1rem;
+}
+.row{
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.documento{
+    width: 20vw;
+    height: 20vh;
+    border: 1px solid black;
+    margin: 3rem;
+}
+.documento img{
+    width: 20vw;
+    height: 20vh;
+}
+.documento a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
